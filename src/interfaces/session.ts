@@ -14,7 +14,7 @@ export interface SessionWithToken extends Session {
   token: string;
 }
 
-export default interface SessionAndUser {
+export interface SessionAndUser {
   profile: Profile | null;
   session: SessionWithToken;
   user: User;
