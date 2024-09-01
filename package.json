@@ -2,7 +2,7 @@
   "name": "@staroverlay/sdk",
   "author": "sammwy",
   "description": "SDK for the StarOverlay API",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",

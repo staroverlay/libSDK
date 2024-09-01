@@ -7,7 +7,7 @@ export const ServiceTypes = [
   },
 ];
 
-export default interface Template {
+export interface Template {
   _id: string;
   creatorId: string;
   description?: string;

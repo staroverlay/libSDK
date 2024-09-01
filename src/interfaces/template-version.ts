@@ -1,4 +1,4 @@
-import SettingsScope from './settings';
+import { SettingsScope } from './settings';
 
 export interface TemplateVersion {
   _id: string;
@@ -138,7 +138,7 @@ export interface TemplateAdvancedField {
   enum?: FieldEnumSettings;
 }
 
-export default interface TemplateField extends TemplateAdvancedField {
+export interface TemplateField extends TemplateAdvancedField {
   _internalId: string;
   id: string;
   label?: string;

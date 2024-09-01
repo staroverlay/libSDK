@@ -38,5 +38,3 @@ export const SettingsScopes: SettingsScopeData[] = [
   { id: 'twitch:shoutout', name: 'Shoutout', debuggable: true },
   { id: 'twitch:subscription', name: 'Subscription', debuggable: true },
 ];
-
-export default SettingsScope;
