@@ -8,6 +8,7 @@ export * from './session';
 export * from './settings';
 export * from './template';
 export * from './template-version';
+export * from './token';
 export * from './twitch';
 export * from './user';
 export * from './widget';
