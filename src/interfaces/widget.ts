@@ -1,4 +1,4 @@
-import SettingsScope from './settings';
+import { SettingsScope } from './settings';
 import { ServiceType } from './template';
 
 export interface Widget {
